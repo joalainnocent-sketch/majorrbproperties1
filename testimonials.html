@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testimonials | Major RB Properties</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "ui-sans-serif", "system-ui"],
+              serif: ["Playfair Display", "ui-serif", "Georgia"],
+              thunder: ["Thunder", "Bebas Neue", "Impact", "sans-serif"],
+            },
+            colors: {
+              accent: "#E6501B",
+              brand: {
+                50: "#fff1f0",
+                100: "#ffdfdc",
+                200: "#ffc4be",
+                300: "#ff9c92",
+                400: "#ff6253",
+                500: "#f83122",
+                600: "#d7160b",
+                700: "#740A03",
+                800: "#5d0903",
+                900: "#4e0b06",
+              },
+              sand: {
+                50: "#faf7f1",
+                100: "#f4eee2",
+                200: "#eadfc8",
+                300: "#dcc8a3",
+                400: "#cdb07f",
+                500: "#bd9860",
+                600: "#a67c47",
+                700: "#866039",
+                800: "#65472c",
+                900: "#4a3421",
+              },
+            },
+            boxShadow: {
+              soft: "0 14px 40px rgba(15, 23, 42, 0.12)",
+              card: "0 10px 30px rgba(15, 23, 42, 0.10)",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="min-h-screen bg-white font-sans text-slate-900">
+    <header class="absolute top-0 left-0 w-full z-50 bg-transparent text-white">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+        <a href="./index.html" class="flex items-center gap-2 sm:gap-3">
+          <img src="./Major RB logo.png" alt="Major RB Properties" class="h-12 w-auto sm:h-16 md:h-20 transition-all" />
+          <span class="text-base font-bold tracking-tight text-white sm:text-lg md:text-xl whitespace-nowrap">Major RB Properties</span>
+        </a>
+
+        <nav class="hidden items-center gap-7 text-xs font-medium tracking-wider md:flex">
+          <a class="opacity-80 transition-all hover:opacity-100 hover:text-accent hover:underline underline-offset-8" href="./index.html#home">HOME</a>
+          <a class="opacity-80 transition-all hover:opacity-100 hover:text-accent hover:underline underline-offset-8" href="./index.html#listings">LISTINGS</a>
+          <a class="opacity-80 transition-all hover:opacity-100 hover:text-accent hover:underline underline-offset-8" href="./index.html#about">ABOUT</a>
+          <a class="opacity-80 transition-all hover:opacity-100 hover:text-accent hover:underline underline-offset-8" href="./index.html#agents">AGENT</a>
+          <a class="opacity-80 transition-all hover:opacity-100 hover:text-accent hover:underline underline-offset-8" href="./index.html#blog">BLOG</a>
+          <a class="opacity-80 transition-all hover:opacity-100 hover:text-accent hover:underline underline-offset-8" href="./index.html#pages">PAGES</a>
+          <a class="opacity-100 text-accent underline underline-offset-8" href="./testimonials.html">TESTIMONIALS</a>
+        </nav>
+
+        <div class="hidden items-center gap-2 text-xs md:flex">
+          <a class="group flex items-center gap-2" href="tel:+27815408254">
+            <span class="opacity-80 transition-all group-hover:opacity-100 group-hover:text-accent">Call:</span>
+            <span class="font-semibold transition-all group-hover:text-accent group-hover:underline">+27 81 540 8254</span>
+          </a>
+        </div>
+
+        <a
+          class="inline-flex items-center justify-center rounded-md bg-brand-800 px-3 py-2 text-xs font-semibold tracking-wider md:hidden"
+          href="./index.html"
+          >BACK</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-slate-900" aria-hidden="true"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-brand-700/40 via-slate-900/40 to-slate-900" aria-hidden="true"></div>
+        <div class="relative mx-auto max-w-6xl px-4 py-14 md:py-20">
+          <div class="max-w-3xl text-white">
+            <div class="text-[10px] font-semibold tracking-[0.35em] text-white/70">REVIEWS</div>
+            <h1 class="mt-4 font-thunder text-5xl font-bold uppercase leading-tight md:text-8xl">Testimonials</h1>
+            <p class="mt-4 max-w-2xl text-sm leading-7 text-white/75">
+              What clients say about Major RB Properties. Replace these with real testimonials when available.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-white">
+        <div class="mx-auto max-w-6xl px-4 py-16">
+          <div class="grid gap-6 md:grid-cols-2">
+            <article class="rounded-2xl bg-white p-6 shadow-card ring-1 ring-slate-100">
+              <div class="flex items-start justify-between gap-3">
+                <div>
+                  <div class="text-sm font-semibold">Innocent Itumeleng</div>
+                  <div class="mt-1 text-xs text-slate-500">3 reviews • 1 photo</div>
+                </div>
+                <div class="text-sand-600" aria-hidden="true">★★★★★</div>
+              </div>
+              <p class="mt-4 text-sm leading-7 text-slate-600">
+                I recently bought a 400m² stand at Phase 3 through Major RB Properties, and I’m extremely satisfied with the service I received. From the first inquiry to finalising the purchase, the process was handled professionally and transparently.
+              </p>
+              <p class="mt-4 text-sm leading-7 text-slate-600">
+                They clearly explained the paperwork, payment process, and development plans, which gave me full confidence in my investment. Communication was consistent, and they were always willing to answer my questions.
+              </p>
+              <p class="mt-4 text-sm leading-7 text-slate-600">
+                Buying land can sometimes feel overwhelming, but Major RB Properties made it smooth and stress-free. I highly recommend them to anyone looking to invest in property.
+              </p>
+            </article>
+
+            <article class="rounded-2xl bg-white p-6 shadow-card ring-1 ring-slate-100">
+              <div class="flex items-start justify-between gap-3">
+                <div>
+                  <div class="text-sm font-semibold">Innocent Khumalo</div>
+                  <div class="mt-1 text-xs text-slate-500">4 reviews • 1 photo • 2 weeks ago</div>
+                </div>
+                <div class="text-sand-600" aria-hidden="true">★★★★★</div>
+              </div>
+              <p class="mt-4 text-sm leading-7 text-slate-600">
+                I recently had the pleasure of working with Major RB Properties, and I am extremely satisfied with the service I received. From the very beginning, their team was professional, responsive, and highly knowledgeable about the property market.
+              </p>
+              <p class="mt-4 text-sm leading-7 text-slate-600">
+                They took the time to understand my needs, answered all my questions clearly, and guided me through every step of the process. Their communication was consistent, transparent, and efficient, which made everything smooth and stress-free.
+              </p>
+              <p class="mt-4 text-sm leading-7 text-slate-600">
+                What stood out the most was their dedication and attention to detail. They genuinely care about their clients and work hard to ensure the best possible outcome. I highly recommend Major RB Properties to anyone looking for reliable and trustworthy property services.
+              </p>
+            </article>
+          </div>
+
+          <div class="mt-10 rounded-3xl bg-sand-50 p-8 ring-1 ring-sand-100">
+            <div class="grid gap-6 md:grid-cols-2 md:items-center">
+              <div>
+                <div class="text-[10px] font-semibold tracking-[0.35em] text-brand-700">HAVE QUESTIONS?</div>
+                <h2 class="mt-4 font-serif text-3xl">Send an enquiry</h2>
+                <p class="mt-3 text-sm leading-7 text-slate-600">
+                  Use WhatsApp for the fastest response.
+                </p>
+              </div>
+              <div class="flex flex-col gap-3 sm:flex-row sm:justify-end">
+                <a
+                  class="inline-flex items-center justify-center rounded-full bg-brand-700 px-6 py-3 text-sm font-semibold text-white hover:bg-brand-800"
+                  href="./index.html#agents"
+                  >Contact form</a
+                >
+                <a
+                  class="inline-flex items-center justify-center rounded-full bg-[#25D366] px-6 py-3 text-sm font-semibold text-white hover:brightness-95"
+                  href="https://wa.me/27815408254?text=Hi%20Major%20RB%20Properties%2C%20I%20would%20like%20to%20make%20an%20enquiry.%0A%0AName%3A%20%0APreferred%20phase%3A%20(New%20Phase%20300m%C2%B2%2040K%20%2F%20New%20Phase%20400m%C2%B2%2050K%20%2F%20Estate%20400m%C2%B2%2080K%20%2F%20Phase%203%20400m%C2%B2%2075K%20%2F%20Phase%201%26%202%20400m%C2%B2%20100K)%0AWhen%20would%20you%20like%20to%20view%3A%20%0AAny%20questions%3A%20"
+                  target="_blank"
+                  rel="noreferrer"
+                  >WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-white">
+      <div class="mx-auto max-w-6xl px-4 py-10">
+        <div class="grid gap-8 md:grid-cols-3">
+          <div class="flex flex-col gap-4">
+            <div class="flex items-center gap-3">
+              <img src="./Major RB logo.png" alt="Major RB Properties" class="h-14 w-auto sm:h-20 transition-all" />
+              <span class="text-base font-bold tracking-tight text-slate-900 sm:text-lg">Major RB Properties</span>
+            </div>
+            <p class="mt-2 text-sm leading-7 text-slate-600">Client feedback and testimonials.</p>
+          </div>
+          <div>
+            <div class="text-xs font-semibold tracking-wider text-slate-900">QUICK LINKS</div>
+            <div class="mt-3 grid gap-2 text-sm">
+              <a class="text-slate-600 hover:text-slate-900" href="./index.html#listings">Listings</a>
+              <a class="text-slate-600 hover:text-slate-900" href="./index.html#about">About</a>
+              <a class="text-slate-600 hover:text-slate-900" href="./index.html#agents">Contact</a>
+            </div>
+          </div>
+          <div>
+            <div class="text-xs font-semibold tracking-wider text-slate-900">CONTACT</div>
+            <div class="mt-3 grid gap-2 text-sm text-slate-600">
+              <a class="hover:text-slate-900" href="tel:+27815408254">+27 81 540 8254</a>
+              <a class="hover:text-slate-900" href="mailto:ruthsesoko199@gmail.com">ruthsesoko199@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-10 flex flex-col gap-2 border-t border-slate-100 pt-6 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between">
+          <div>© <span id="year"></span> Major RB Properties. All rights reserved.</div>
+          <div class="flex gap-4">
+            <a class="hover:text-slate-900" href="#">Privacy</a>
+            <a class="hover:text-slate-900" href="#">Terms</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
